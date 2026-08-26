@@ -19,6 +19,7 @@ credentials.json
 # Local runtime state
 runtime/
 data/local/
+observations/runtime/
 *.log
 
 # IDE / OS
