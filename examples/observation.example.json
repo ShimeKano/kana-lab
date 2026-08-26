@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "001-hoso",
+  "command": ".hoso",
+  "observed_at": "2026-08-26T20:00:00+07:00",
+  "response": {
+    "type": "message",
+    "content": null,
+    "embeds": [
+      {
+        "title": "Hồ Sơ — example",
+        "description": "Replace with sanitized visible text or structured fields.",
+        "fields": []
+      }
+    ],
+    "components": [
+      {
+        "type": "button",
+        "label": "Bí Cảnh",
+        "disabled": false
+      },
+      {
+        "type": "select",
+        "placeholder": "Example dropdown",
+        "options": [
+          {"label": "Option A"}
+        ]
+      }
+    ]
+  },
+  "notes": "Only record what was normally visible/observed. Do not include credentials."
+}
